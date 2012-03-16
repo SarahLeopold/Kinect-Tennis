@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" xmlns:my="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Image Height="243" HorizontalAlignment="Left" Margin="65,45,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="426" Source="/WpfApplication1;component/tennisCourt.bmp" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="65,45,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="426" OpacityMask="Black" />
+        <Ellipse Height="68" HorizontalAlignment="Left" Margin="155,174,0,0" Name="ellipse1" Stroke="Black" VerticalAlignment="Top" Width="74">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/WpfApplication1;component/Ball.bmp" />
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Window>
